@@ -1,0 +1,9 @@
+header {
+	padding-bottom: calc(10rem - 4.5rem);
+	height: 450px;
+	background-image: url("../images/bg-head.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+}
