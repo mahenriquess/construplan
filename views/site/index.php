@@ -20,10 +20,13 @@
 	<?php require "links.php"; ?>
 </head>
 <body>
-	<header>
-		Página Inicial
+	<header class="index">
+		<?php require "menu.php"; ?>
 	</header>
 
+	<div class="div-email branco">
+		<? require "form-email.php"; ?>
+	</div>
 	<? require "footer.php"; ?>
 </body>
 </html>

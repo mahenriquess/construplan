@@ -23,4 +23,20 @@ class Web
     {
         echo $this->view->render('quem-somos', []);
     }
+    public function servicos()
+    {
+        echo $this->view->render('servicos', []);
+    }
+    public function projetos()
+    {
+        echo $this->view->render('projetos', []);
+    }
+    public function clientes()
+    {
+        echo $this->view->render('clientes', []);
+    }
+    public function contato()
+    {
+        echo $this->view->render('contato', []);
+    }
 }

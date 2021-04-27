@@ -18,6 +18,10 @@ $router->namespace('src/Controller');
 $router->group(null);
 $router->get('/', function () use ($web){$web->index();});
 $router->get('/quem-somos', function () use ($web){$web->quemSomos();});
+$router->get('/servicos', function () use ($web){$web->servicos();});
+$router->get('/projetos', function () use ($web){$web->projetos();});
+$router->get('/clientes', function () use ($web){$web->clientes();});
+$router->get('/contato', function () use ($web){$web->contato();});
 
 // Rotas de Envio
 $router->group('/send');

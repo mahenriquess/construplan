@@ -1,44 +1,21 @@
 $(document).ready(function() {
 
-    $('.button-collapse').sideNav();
+	$('.button-collapse').sideNav();
 
-    $('.banner.owl-carousel').owlCarousel({
-        items: 1,
-        loop: true,
-        margin: 10,
-        nav: true
-    });
+});
 
-    $('.tripadvisor .owl-carousel').owlCarousel({
-        items: 1,
-        loop: true,
-        margin: 10,
-        nav: true
-    });
+// Back to top button
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 100) {
+    $('.back-to-top').fadeIn('slow');
+  } else {
+    $('.back-to-top').fadeOut('slow');
+  }
+});
 
-    // Carrousel de imagens de mais detalhes
-
-    const quantImg = $('.details .owl-carousel img').length;
-
-    if (quantImg > 4) {
-        $('.details .owl-carousel').owlCarousel({
-            items: 4,
-            loop: true,
-            margin: 10,
-            nav: true
-        });
-    }
-
-    // Troca de imagem do carousel para destaque
-
-    $('.details .owl-carousel .item').hover(function() {
-        let image = $(this).find('img').attr('src');
-        $('.details .featured img').attr('src', image);
-    });
-
-    setTimeout(() => {
-        $('.owl-next').html('<span class="fa fa-angle-double-right"></span>');
-        $('.owl-prev').html('<span class="fa fa-angle-double-left"></span>');
-    }, 500);
-
+$('.back-to-top').click(function() {
+  $('html, body').animate({
+    scrollTop: 0
+  }, 1500, 'easeInOutExpo');
+  return false;
 });

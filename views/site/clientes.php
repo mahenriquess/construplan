@@ -10,21 +10,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="robots" content="index, follow">
 
-	<title>Quem Somos - Construplan Engenharia e Gerenciamento</title>
+	<title>Clientes - Construplan Engenharia e Gerenciamento</title>
 	<meta name="description" content=""/>
 	<meta name="keywords" content=""/>
 
-	<link rel="icon" href="public/site/images/icon.png" type="image/png" sizes="16x16">
+	<link rel="icon" href="images/icon.png" type="image/png" sizes="16x16">
 	<link rel="canonical" itemprop="url" href="" />
 
 	<?php require "links.php"; ?>
 </head>
 <body>
-	<header class="quem-somos">
+	<header class="clientes">
 		<?php require "menu.php"; ?>
 	</header>
 
-	<div class="div-email laranja">
+	<div class="div-email cinza">
 		<? require "form-email.php"; ?>
 	</div>
 	<? require "footer.php"; ?>
