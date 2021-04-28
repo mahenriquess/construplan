@@ -14,7 +14,7 @@
 	<meta name="description" content=""/>
 	<meta name="keywords" content=""/>
 
-	<link rel="icon" href="images/icon.png" type="image/png" sizes="16x16">
+	<link rel="icon" href="public/site/images/icon.png" type="image/png" sizes="16x16">
 	<link rel="canonical" itemprop="url" href="" />
 
 	<?php require "links.php"; ?>
@@ -22,6 +22,25 @@
 <body>
 	<header class="projetos">
 		<?php require "menu.php"; ?>
+		<div class="row-title">
+			<div class="row mb-0">
+				<div class="col s1">
+					<div class="vl-title"></div>
+				</div>
+				<div class="col s11">
+					<h1 class="page-title">Projetos</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s3 offset-s1">
+					<div class="row-subtitle vertical-center">
+						<a href="<?= URL_BASE; ?>" class="black-text">Home</a>
+						<div class="vl-subtitle"></div>
+						<span class="coolvetica main-color-text">projetos</span>
+					</div>
+				</div>
+			</div>
+		</div>
 	</header>
 
 	<? require "footer.php"; ?>

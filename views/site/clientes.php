@@ -14,7 +14,7 @@
 	<meta name="description" content=""/>
 	<meta name="keywords" content=""/>
 
-	<link rel="icon" href="images/icon.png" type="image/png" sizes="16x16">
+	<link rel="icon" href="public/site/images/icon.png" type="image/png" sizes="16x16">
 	<link rel="canonical" itemprop="url" href="" />
 
 	<?php require "links.php"; ?>
@@ -22,10 +22,42 @@
 <body>
 	<header class="clientes">
 		<?php require "menu.php"; ?>
+		<div class="row-title">
+			<div class="row mb-0">
+				<div class="col s1">
+					<div class="vl-title"></div>
+				</div>
+				<div class="col s11">
+					<h1 class="page-title">Nossos Parceiros</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s3 offset-s1">
+					<div class="row-subtitle vertical-center">
+						<a href="<?= URL_BASE; ?>" class="black-text">Home</a>
+						<div class="vl-subtitle"></div>
+						<span class="coolvetica main-color-text">parceiros</span>
+					</div>
+				</div>
+			</div>
+		</div>
 	</header>
-
 	<div class="div-email cinza">
-		<? require "form-email.php"; ?>
+		<div class="container">
+			<div class="row">
+				<div class="col l6 m12 s12">
+					<h5 class="coolvetica">
+						Faça seu orçamento conosco, <br>
+						qualidade e agilidade garantido!
+					</h5>
+					<p>
+						Nossa central está pronto para te atender <br>
+						e tirar todas as suas dúvidas. Aqui você pode confiar!
+					</p>
+				</div>
+			</div>
+			<? require "form-email.php"; ?>
+		</div>
 	</div>
 	<? require "footer.php"; ?>
 </body>

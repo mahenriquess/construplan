@@ -34,6 +34,46 @@ header {
 .projetos{
 	background-image: url("../images/bg-servicos-projetos.png");
 }
+.vl-title{
+  border: 1px solid var(--laranjaMedio);
+  margin-left: 100%;
+  margin-right: 0%;
+  height: 6rem;
+}
+.vl-subtitle{
+  border: 2px solid #f2f2f2;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 2rem;
+  border-radius: 50px;
+}
+.row-title{
+	margin-top: 3rem; 
+}
+.row-title h1{
+	color: #fff;
+	font-size: 3rem;
+}
+.page-title{
+	text-align: left;
+}
+.row-subtitle{
+	width: 150px;
+	height: 4rem;
+	background-color: #fff;
+}
+.row-subtitle-qs{
+	width: 200px;
+	height: 4rem;
+	background-color: #fff;
+}
+.row-subtitle a{
+	font-weight: 700; 
+}
+.row-subtitle-qs a{
+	font-weight: 700; 
+}
+
 /* ----- HEADERS E BACKGROUNDS ----- */
 
 /* ------------- MENU -------------- */
@@ -106,6 +146,167 @@ nav ul a:hover{
 	}
 }
 /* ------------- MENU -------------- */
+
+/* ------------- QUEM SOMOS -------------- */
+
+.quem-somos-content{
+	margin-top: 6rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+.quem-somos-img{
+	height: 750px;
+	margin-top: 30%;
+}
+.transversal{
+	margin-left: 50%;
+	height: 150px;
+}
+.missao{
+	background-color: var(--laranjaEscuro);
+	color: #fff;
+	margin-top: -150px;
+	margin-right: 20%;
+	height: 100%;
+	padding: 2rem;
+	padding-right: 10rem;
+}
+.quadrado{
+    color: var(--laranjaMedio);
+    font-size: 1rem;
+}
+.estrutura{
+    height: 300px;
+    padding-top: 10%; 
+    margin-left: 70%;
+    margin-bottom: -26%;
+    vertical-align: bottom;
+}
+@media(max-width: 1024px){
+	.quem-somos-img{
+		height: 450px;
+		margin-top: 0;
+	}
+	.transversal{
+		margin-left: 50%;
+		height: 100px;
+	}
+	.missao{
+		margin-top: -100px;
+	}
+	.estrutura{
+	    height: 200px;
+	    padding-top: 10%; 
+	    margin-left: 105%;
+	    margin-bottom: -66%;
+	}
+}
+@media(max-width: 992px){
+	.transversal{
+		margin-left: 60%;
+		height: 120px;
+	}
+	.missao{
+		margin-top: -120px;
+	}
+	.estrutura{
+	    height: 250px;
+	    padding-top: 10%; 
+	    margin-left: 97%;
+	    margin-bottom: -14%;
+	}
+}
+@media(max-width: 768px){
+	.estrutura{
+	    height: 250px;
+	    padding-top: 10%; 
+	    margin-left: 97%;
+	    margin-bottom: -22%;
+	}
+}
+@media(max-width: 650px){
+	.transversal{
+		margin-left: 50%;
+		height: 100px;
+	}
+	.missao{
+		margin-top: -100px;
+	}
+	.estrutura{
+	    height: 220px;
+	    padding-top: 10%; 
+	    margin-left: 105%;
+	    margin-bottom: -35%;
+	}
+}
+@media(max-width: 425px){
+	.estrutura{
+		height: 160px;
+		padding-top: 10%;
+		margin-bottom: -460%;
+		margin-left: 260%;
+	}
+}
+@media(max-width: 450px){
+	.quem-somos-img{
+		height: 350px;
+	}
+	.transversal{
+		margin-left: 50%;
+		height: 100px;
+	}
+	.missao{
+		margin-top: -100px;
+	}
+}
+@media(max-width: 350px){
+	.quem-somos-img{
+		height: 250px;
+	}
+	.transversal{
+		margin-left: 40%;
+		height: 75px;
+	}
+	.missao{
+		margin-top: -75px;
+	}
+}
+
+.conheca-mais{
+	margin-top: 6rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+.conheca-mais-img{
+	height: 500px;
+	object-fit: cover;
+}
+@media(max-width: 420px){
+	.conheca-mais-img{
+		height: 250px;
+	}
+}
+/* -------- QUEM SOMOS -------  */
+
+/*-------- timeline-tempo ----------*/
+.tempo{
+	background-color: #F2f2f2;
+	height: 1200px;
+	padding: 50px;
+	background-image: url("../images/timeline.png");
+	background-size:  22px 1000px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.tempo h3{
+	font-size: 2rem;
+}
+.tempo h5{
+	font-size: 16px;
+	color:#666666;
+}
+/* -------- timeline-tempo -------  */
 
 /* -------- FOOTER -------  */
 footer{
@@ -180,13 +381,48 @@ footer img {
 }
 .form-email{
 	width: 350px;
-	height: 400px;
-	background-color: #000000; 
+	height: 320px;
+	background-color: #000000;
+	padding: 1rem;
+	color: #f2f2f2;
+}
+.border-form{
+	border: 1px solid #F2F2F2 !important;
+	height: 4rem;
+}
+.icon-form{
+	border-top: 1px solid #F2F2F2 !important;
+	border-bottom: 1px solid #F2F2F2 !important;
+	border-right: 1px solid #F2F2F2 !important;
+	height: 4rem;
+	width: 3rem;
+}
+.form-email input, .form-email textarea{
+	border: 0px !important;
+}
+
+.form-email input:focus, .form-email textarea:focus{
+	border-bottom: 0px solid #000000 !important;
+    -webkit-box-shadow: 0 0px 0 0 #000000 !important;
+    box-shadow: 0 0px 0 0 #000000 !important;
+}
+.form-email textarea{
+	padding: 0 !important;
 }
 .form-email-img{
 	height: 400px;
 	object-fit: cover;
-	object-position: right;
+}
+@media(max-width: 420px){
+	.form-email-img{
+		height: 250px;
+		object-fit: cover;
+	}
+	.form-email{
+		width: 280px;
+		height: 320px;
+		padding: 0.5rem;
+	}
 }
 /* -------- FORM-EMAIL -------  */
 

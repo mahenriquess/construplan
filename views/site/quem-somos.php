@@ -22,10 +22,188 @@
 <body>
 	<header class="quem-somos">
 		<?php require "menu.php"; ?>
+		<div class="row-title">
+			<div class="row mb-0">
+				<div class="col s1">
+					<div class="vl-title"></div>
+				</div>
+				<div class="col s11">
+					<h1 class="page-title">Quem Somos</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s3 offset-s1">
+					<div class="row-subtitle-qs vertical-center">
+						<a href="<?= URL_BASE; ?>" class="black-text">Home</a>
+						<div class="vl-subtitle"></div>
+						<span class="coolvetica main-color-text">quem somos</span>
+					</div>
+				</div>
+			</div>
+		</div>
 	</header>
 
+	<div class="quem-somos-content">
+		<div class="row">
+			<div class="col l6 s12">
+				<figure class="vertical-center">
+					<img src="public/site/images/quem-somos.png" class="quem-somos-img center">
+				</figure>
+			</div>
+			<div class="col l6 s12">
+				<div class="row">
+					<div class="col s12">
+						<h3 class="coolvetica"> A WD construplan <br>
+							 está desde 2013 construindo <br>
+							 com qualidade e pontualidade! <br>
+						</h3>
+					</div>
+				</div>
+				<? require"missao.php"; ?>
+			</div>
+		</div>
+	</div>
+
+	<div class="tempo">
+		<div class="row">
+			<div class="col l5 s12">
+				<div class="row">
+					<h3 class="coolvetica right-align">
+						O ano é 2013. Como e porque começamos
+					</h3>
+				</div>
+				<div class="row">
+					<p class="vegur right-align">
+						Quisque nec leo rutrum, efficitur turpis eu, eleifend elit. Donec suscipit, ex ut tincidunt bibendum, tortor nunc cursus dolor, vitae rutrum dui justo quisneque. Cras enim elit, feugiat id mi at, porta sodales dolor. Praesent euismod pretium tortor
+					</p>
+				</div>
+			</div>
+			<div class="col l5 s12 offset-l2">
+				<h3 class="coolvetica">2013</h3>
+				<h5 class="coolvetica">início de nossa trajetória</h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col l5 s12">
+				<h3 class="coolvetica right-align">2016</h3>
+				<h5 class="coolvetica right-align">Grande Conquista</h5>
+			</div>
+			<div class="col l5 s12 offset-l2">
+				<div class="row">
+					<h3 class="coolvetica left-align">
+						Uma grande conquista
+					</h3>
+				</div>
+				<div class="row">
+					<p class="vegur left-align">
+						Quisque nec leo rutrum, efficitur turpis eu, eleifend elit. Donec suscipit, ex ut tincidunt bibendum, tortor nunc cursus dolor, vitae rutrum dui justo quisneque. Cras enim elit, feugiat id mi at, porta sodales dolor. Praesent euismod pretium tortor
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col l5 s12">
+				<div class="row">
+					<h3 class="coolvetica right-align">
+						Inovamos nossa tecnologia 
+					</h3>
+				</div>
+				<div class="row">
+					<p class="vegur right-align">
+						Quisque nec leo rutrum, efficitur turpis eu, eleifend elit. Donec suscipit, ex ut tincidunt bibendum, tortor nunc cursus dolor, vitae rutrum dui justo quisneque. Cras enim elit, feugiat id mi at, porta sodales dolor. Praesent euismod pretium tortor
+					</p>
+				</div>
+			</div>
+			<div class="col l5 s12 offset-l2">
+				<h3 class="coolvetica">2018</h3>
+				<h5 class="coolvetica">Aumentamos nossa tecnologia</h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col l5 s12">
+				<h3 class="coolvetica right-align">2021</h3>
+				<h5 class="coolvetica right-align">Nossa projeção para 2021</h5>
+			</div>
+			<div class="col l5 s12 offset-l2">
+				<div class="row">
+					<h3 class="coolvetica left-align">
+						Nossa projeção para o ano
+					</h3>
+				</div>
+				<div class="row">
+					<p class="vegur left-align">
+						Quisque nec leo rutrum, efficitur turpis eu, eleifend elit. Donec suscipit, ex ut tincidunt bibendum, tortor nunc cursus dolor, vitae rutrum dui justo quisneque. Cras enim elit, feugiat id mi at, porta sodales dolor. Praesent euismod pretium tortor
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="conheca-mais">
+		<div class="row">
+			<div class="col l6 s12">
+				<div class="row">
+					<div class="col s12">
+						<h4 class="coolvetica"> 
+							CONHEÇA MAIS 
+							<span class="main-color-text"> WD CONSTRUPLAN</span>
+						</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s12">
+						<p class="vegur" style="text-align: justify;">
+							A WD com sua experiência e determinação, sempre em busca de inovação
+							e de novas tecnologias, conta com profissionais altamente qualificados e
+							treinados para diversos tipos de obras, segregados por funções pertinentes a
+							sua qualificação e equipe técnica liderada por engenheiros com anos de
+							experiências. Nossa construtora atua em âmbito nacional, e tem por seu nicho
+							obras comerciais e públicas
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s12">
+						<p class="vegur" style="text-align: justify;">
+							Nosso objetivo é oferecer os melhores serviços que atendam a demanda
+							de diversos nichos de empreendimentos sempre buscando a satisfação do
+							trabalhando com responsabilidade, ética, transparência e com foco na
+							sustentabilidade econômica do empreendimento e ambiental. A transparência
+							e segurança comercial a nossos clientes temos como primordial, desta forma
+							proporcionamos a redução de custos e garantia da estabilidade econômica do
+							empreendimento, sendo uma empresa competitiva no mercado e reconhecida pela
+							excelência, qualidade, processo, prazo.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col l5 s12">
+				<div class="row">
+					<div class="col s12 vertical-center">
+						<figure>
+							<img src="public/site/images/quem-somos-1.png" class="conheca-mais-img">
+						</figure>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<div class="div-email laranja">
-		<? require "form-email.php"; ?>
+		<div class="container">
+			<div class="row">
+				<div class="col l6 m12 s12">
+					<h5 class="coolvetica">
+						Faça seu orçamento conosco, <br>
+						qualidade e agilidade garantido!
+					</h5>
+					<p>
+						Nossa central está pronto para te atender <br>
+						e tirar todas as suas dúvidas. Aqui você pode confiar!
+					</p>
+				</div>
+			</div>
+			<? require "form-email.php"; ?>
+		</div>
 	</div>
 	<? require "footer.php"; ?>
 </body>
