@@ -36,7 +36,7 @@
 					<div class="row-subtitle vertical-center">
 						<a href="<?= URL_BASE; ?>" class="black-text">Home</a>
 						<div class="vl-subtitle"></div>
-						<span class="coolvetica main-color-text">contatos</span>
+						<span class="coolvetica main-color-text-claro">contatos</span>
 					</div>
 				</div>
 			</div>

@@ -36,7 +36,7 @@
 					<div class="row-subtitle-qs vertical-center">
 						<a href="<?= URL_BASE; ?>" class="black-text">Home</a>
 						<div class="vl-subtitle"></div>
-						<span class="coolvetica main-color-text">quem somos</span>
+						<span class="coolvetica main-color-text-claro">quem somos</span>
 					</div>
 				</div>
 			</div>
@@ -65,73 +65,73 @@
 	</div>
 
 	<div class="tempo">
-		<div class="row">
-			<div class="col l5 s12">
+		<div class="row acontecimento">
+			<div class="col s6 right-align">
 				<div class="row">
-					<h3 class="coolvetica right-align">
+					<h4 class="coolvetica ">
 						O ano é 2013. Como e porque começamos
-					</h3>
+					</h4>
 				</div>
 				<div class="row">
-					<p class="vegur right-align">
+					<p class="vegur">
 						Quisque nec leo rutrum, efficitur turpis eu, eleifend elit. Donec suscipit, ex ut tincidunt bibendum, tortor nunc cursus dolor, vitae rutrum dui justo quisneque. Cras enim elit, feugiat id mi at, porta sodales dolor. Praesent euismod pretium tortor
 					</p>
 				</div>
 			</div>
-			<div class="col l5 s12 offset-l2">
+			<div class="col s6 left-align">
 				<h3 class="coolvetica">2013</h3>
 				<h5 class="coolvetica">início de nossa trajetória</h5>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col l5 s12">
-				<h3 class="coolvetica right-align">2016</h3>
-				<h5 class="coolvetica right-align">Grande Conquista</h5>
+		<div class="row acontecimento">
+			<div class="col s6 right-align">
+				<h3 class="coolvetica ">2016</h3>
+				<h5 class="coolvetica ">Grande Conquista</h5>
 			</div>
-			<div class="col l5 s12 offset-l2">
+			<div class="col s6 left-align">
 				<div class="row">
-					<h3 class="coolvetica left-align">
+					<h4 class="coolvetica ">
 						Uma grande conquista
-					</h3>
+					</h4>
 				</div>
 				<div class="row">
-					<p class="vegur left-align">
+					<p class="vegur">
 						Quisque nec leo rutrum, efficitur turpis eu, eleifend elit. Donec suscipit, ex ut tincidunt bibendum, tortor nunc cursus dolor, vitae rutrum dui justo quisneque. Cras enim elit, feugiat id mi at, porta sodales dolor. Praesent euismod pretium tortor
 					</p>
 				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col l5 s12">
+		<div class="row acontecimento">
+			<div class="col s6 right-align">
 				<div class="row">
-					<h3 class="coolvetica right-align">
+					<h4 class="coolvetica">
 						Inovamos nossa tecnologia 
-					</h3>
+					</h4>
 				</div>
 				<div class="row">
-					<p class="vegur right-align">
+					<p class="vegur ">
 						Quisque nec leo rutrum, efficitur turpis eu, eleifend elit. Donec suscipit, ex ut tincidunt bibendum, tortor nunc cursus dolor, vitae rutrum dui justo quisneque. Cras enim elit, feugiat id mi at, porta sodales dolor. Praesent euismod pretium tortor
 					</p>
 				</div>
 			</div>
-			<div class="col l5 s12 offset-l2">
+			<div class="col s6 left-align">
 				<h3 class="coolvetica">2018</h3>
 				<h5 class="coolvetica">Aumentamos nossa tecnologia</h5>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col l5 s12">
-				<h3 class="coolvetica right-align">2021</h3>
-				<h5 class="coolvetica right-align">Nossa projeção para 2021</h5>
+		<div class="row acontecimento">
+			<div class="col s6 right-align">
+				<h3 class="coolvetica">2021</h3>
+				<h5 class="coolvetica ">Nossa projeção para 2021</h5>
 			</div>
-			<div class="col l5 s12 offset-l2">
+			<div class="col s6 left-align">
 				<div class="row">
-					<h3 class="coolvetica left-align">
+					<h4 class="coolvetica ">
 						Nossa projeção para o ano
-					</h3>
+					</h4>
 				</div>
 				<div class="row">
-					<p class="vegur left-align">
+					<p class="vegur">
 						Quisque nec leo rutrum, efficitur turpis eu, eleifend elit. Donec suscipit, ex ut tincidunt bibendum, tortor nunc cursus dolor, vitae rutrum dui justo quisneque. Cras enim elit, feugiat id mi at, porta sodales dolor. Praesent euismod pretium tortor
 					</p>
 				</div>
@@ -146,7 +146,7 @@
 					<div class="col s12">
 						<h4 class="coolvetica"> 
 							CONHEÇA MAIS 
-							<span class="main-color-text"> WD CONSTRUPLAN</span>
+							<span class="main-color-text-claro"> WD CONSTRUPLAN</span>
 						</h4>
 					</div>
 				</div>
@@ -176,8 +176,25 @@
 						</p>
 					</div>
 				</div>
+				<div class="row coolvetica">
+					<div class="col s4 conheca-claro vertical-center">
+						<span class="conheca-icon"><i class="far fa-calendar-alt"></i></span>
+						Atendimento <br>
+						Personalizado
+					</div>
+					<div class="col s4 conheca-escuro vertical-center">
+						<span class="conheca-icon"><i class="fas fa-pencil-ruler"></i></span>
+						Mais de 1+ mil projetos <br>
+						realizados
+					</div>
+					<div class="col s4 conheca-claro vertical-center">
+						<span class="conheca-icon"><i class="fas fa-cogs"></i></span>
+						Tecnologia para <br>
+						todos os projetos
+					</div>
+				</div>
 			</div>
-			<div class="col l5 s12">
+			<div class="col s6">
 				<div class="row">
 					<div class="col s12 vertical-center">
 						<figure>

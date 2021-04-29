@@ -36,12 +36,15 @@
 					<div class="row-subtitle vertical-center">
 						<a href="<?= URL_BASE; ?>" class="black-text">Home</a>
 						<div class="vl-subtitle"></div>
-						<span class="coolvetica main-color-text">serviços</span>
+						<span class="coolvetica main-color-text-claro">serviços</span>
 					</div>
 				</div>
 			</div>
 		</div>
 	</header>
+	<div class="nossos-clientes">
+		<?  require "depoimento-clientes.php"; ?>
+	</div>
 
 	<? require "footer.php"; ?>
 </body>

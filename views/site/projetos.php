@@ -36,13 +36,23 @@
 					<div class="row-subtitle vertical-center">
 						<a href="<?= URL_BASE; ?>" class="black-text">Home</a>
 						<div class="vl-subtitle"></div>
-						<span class="coolvetica main-color-text">projetos</span>
+						<span class="coolvetica main-color-text-claro">projetos</span>
 					</div>
 				</div>
 			</div>
 		</div>
 	</header>
-
+	<div class="projetos-realizados">
+		<div class="row">
+			<div class="col s12 center">
+				<h5 class="coolvetica">Detalhes do desenvolvimento de cada obra realizada</h5>
+			</div>
+		</div>
+		<? require "projetos-realizados.php";?>
+	</div>
+	<div class="nossos-clientes">
+		<?  require "depoimento-clientes.php"; ?>
+	</div>
 	<? require "footer.php"; ?>
 </body>
 </html>

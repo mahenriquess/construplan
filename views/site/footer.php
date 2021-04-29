@@ -20,7 +20,7 @@
 		</div>
 		<div class="col l4 m12 s12 footer-column ">
 			<div class="row">
-				<p class="main-color-text vertical-center">
+				<p class="main-color-text-claro vertical-center">
 					Nossos Serviços
 				</p>
 			</div>
@@ -40,7 +40,7 @@
 		</div>
 		<div class="col l4 m12 s12 footer-column ">
 			<div class="row">
-				<p class="main-color-text vertical-center">
+				<p class="main-color-text-claro vertical-center">
 					Contatos
 				</p>
 			</div>
@@ -61,7 +61,7 @@
 	<div class="row">
 		<div class="col l4 s12">
 			Todos os direitos reservados | Wd Construplan @ 2021 <br>
-			<span class="main-color-text">Criação <a href="https://www.mazukim.com.br" target="_blank" class="main-color-text">Agência Mazukim</a></span>
+			<span class="main-color-text-claro">Criação <a href="https://www.mazukim.com.br" target="_blank" class="main-color-text-claro">Agência Mazukim</a></span>
 		</div>
 		<div class="col l6 s12 vertical-center">
 			<div class="row">

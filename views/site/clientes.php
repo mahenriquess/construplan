@@ -36,12 +36,26 @@
 					<div class="row-subtitle vertical-center">
 						<a href="<?= URL_BASE; ?>" class="black-text">Home</a>
 						<div class="vl-subtitle"></div>
-						<span class="coolvetica main-color-text">parceiros</span>
+						<span class="coolvetica main-color-text-claro">parceiros</span>
 					</div>
 				</div>
 			</div>
 		</div>
 	</header>
+	<div class="nossos-clientes">
+		<?  require "depoimento-clientes.php"; ?>
+	</div>
+
+	<div class="projetos-realizados">
+		<div class="row">
+			<div class="col s12 center">
+				<h3 class="coolvetica main-color-text-escuro">Projetos que Realizamos</h3>
+				<h5 class="comfortaa gray-text">Veja nossas expertises para poder lhe atender</h5>
+			</div>
+		</div>
+		<? require "projetos-realizados.php";?>
+	</div>
+
 	<div class="div-email cinza">
 		<div class="container">
 			<div class="row">
