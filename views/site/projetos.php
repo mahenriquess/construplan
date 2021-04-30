@@ -53,6 +53,9 @@
 	<div class="nossos-clientes">
 		<?  require "depoimento-clientes.php"; ?>
 	</div>
+	<div>
+		<?php require "fale-conosco.php"; ?>
+	</div>
 	<? require "footer.php"; ?>
 </body>
 </html>

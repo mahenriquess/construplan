@@ -355,7 +355,6 @@ nav ul a:hover{
 /* -------- NOSSOS PARCEIROS -------  */
 
 .nossos-clientes, .nossos-clientes-index{
-	height: 700px;
 	padding:50px;
 }
 .nossos-clientes-index{
@@ -416,6 +415,10 @@ nav ul a:hover{
 	.nossos-clientes, .nossos-clientes-index{
 		padding: 0 !important;
 	}
+	.nossos-clientes-index{
+		height: 100% !important;
+		box-shadow: none !important;
+	}
 }
 @media(max-width: 500px){
 	.nossos-clientes-logo-img{
@@ -435,10 +438,34 @@ nav ul a:hover{
 .projetos-grid{
 	margin-top: 50px;
 	margin-bottom: 50px !important;
-	height: 300px;
+	height: 600px;
+}
+.projeto-header{
+	margin: 10px;
+}
+.projeto-header p{
+	margin: 0px 0px 10px 0px !important;
+}
+.projeto-header h5{
+	margin: 0 !important;
+	font-family: "Coolvetica" ;
+	font-size: 22px;
+}
+.projeto-header hr{
+	width: 40%;
+	margin-left: 0px;
+	border-color: var(--laranjaMedio);
 }
 .projeto-text{
-	margin: 10px;
+	font-family: "Comfortaa Regular" ;
+	font-size: 12px;
+}
+.projeto-icon{
+	width: 3rem;
+	height: 2rem;
+	border: 1px solid white;
+	font-size: 1.5rem;
+	color: white !important;
 }
 .pm-0{
 	margin: 0 !important;
@@ -454,7 +481,7 @@ nav ul a:hover{
 	object-position: center;
 }
 .projeto-laranja{
-	background-color: var(--laranjaMedio);
+	background-color: var(--laranjaEscuro);
 }
 .projeto-preto{
 	background-color: #000;
@@ -495,13 +522,9 @@ nav ul a:hover{
 }
 .form-email input, .form-email textarea{
 	border: 0px !important;
+	font-family: "Comfortaa Regular";
 }
 
-.form-email input:focus, .form-email textarea:focus{
-	border-bottom: 0px solid #000000 !important;
-    -webkit-box-shadow: 0 0px 0 0 #000000 !important;
-    box-shadow: 0 0px 0 0 #000000 !important;
-}
 .form-email textarea{
 	padding: 0 !important;
 }
@@ -521,6 +544,104 @@ nav ul a:hover{
 	}
 }
 /* -------- FORM-EMAIL -------  */
+/* -------- FALE-CONOSCO -------  */
+
+.fale-conosco{
+	margin:50px 50px 100px 50px;
+}
+.fale-conosco figure{
+	margin: 0 !important;
+}
+.fale-conosco img{
+	height: 300px;
+	margin-top: -100px;
+	object-fit: contain;
+	object-position: center;
+}
+.fale-conosco-preto{
+	margin-top: 20px;
+	background-color: #000;
+	height: 200px;
+}
+.fale-conosco-laranja{
+	margin-top: 20px;
+	background-color: var(--laranjaEscuro);
+	height: 200px;
+}
+.fale-conosco-form{
+	margin: 40px 0px 0px 0px;
+}
+.fale-conosco-input{
+	background-color: #db4d3b !important;
+	height: 4rem;
+}
+.fale-conosco input{
+	border: none !important;
+}
+.fale-conosco button{
+    margin-left: -10px;
+    height: 4rem;
+}
+.fale-conosco-preto p{
+	padding: 25px 0px 0px 10px;
+}
+.fale-conosco-img-dir{
+	margin-left: 3%;
+}
+.fale-conosco-img-esq{
+	margin-left: -120%;
+}
+@media(max-width: 992px){
+	.fale-conosco-img-esq{
+		margin-left: 0 ;
+	}
+	.fale-conosco-img-dir{
+		margin-left: 30% ;
+	}
+}
+@media(max-width: 600px){
+	.fale-conosco img{
+		display: none !important;
+	}
+}
+
+/* -------- FALE-CONOSCO -------  */
+/* -------- CONTATO -------  */
+.form-contato{
+	background-color: #fff;
+	box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.75);
+}
+.form-inner{
+	margin-top:50px;
+	margin-bottom: 50px;
+	padding: 50px;
+}
+.form-contato input, .form-contato textarea{
+	padding-left: 10px;
+	background-color: #f2f2f2 !important;
+	border: 0px !important;
+}
+input:focus, textarea:focus{
+	border-bottom: 0px solid #000000 !important;
+    -webkit-box-shadow: 0 0px 0 0 #000000 !important;
+    box-shadow: 0 0px 0 0 #000000 !important;
+}
+.info-contato{
+	margin:50px 0px 50px 0px !important;
+}
+.info-item{
+	margin: 20px 0px 20px 0px !important;
+	padding: 10% 10px 0 10px !important;
+	height: 250px;
+	background-color: var(--laranjaEscuro);
+}
+.info-item h4{
+	font-size: 1.5rem;
+}
+.info-item h5{
+	font-size: 1rem;
+}
+/* -------- CONTATO -------  */
 /* -------- FOOTER -------  */
 footer{
 	background-color: #0A0B11;

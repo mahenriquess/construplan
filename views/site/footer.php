@@ -87,7 +87,7 @@
 		</div>
 		<div class="col l2 s12 vertical-center">
 			<a href="#" class="back-to-top">
-				<div class="back center"><i class="fas fa-arrow-circle-up"></i></div>
+				<div class="back center"><i class="fas fa-chevron-up"></i></div>
 			</a>
 		</div>
 	</div>
